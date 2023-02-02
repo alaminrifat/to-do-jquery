@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+body {
+  min-height: 100vh;
+}
+.container {
+  margin: 0 auto;
+  background-color: #ffcbcb;
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box {
+  background-color: #70adb5;
+  margin: 50px 50px;
+  min-height: 70vh;
+  min-width: 80vh;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px 0px #888888;
+}
+.input {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #407088;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 4px 4px 20px 0px #fcfcfc72;
+  margin-bottom: 10px;
+}
+.input::placeholder {
+  color: #bbb;
+}
+
+ul li {
+  width: 100%;
+  list-style: none;
+  background-color: #06283d;
+  padding: 10px;
+  border-radius: 5px;
+  color: #bbb;
+  /* margin-bottom: 5px; */
+  margin: 5px auto;
+}
+
+li .fa-check {
+  color: greenyellow;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+li .fa-trash {
+  color: orangered;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.checked {
+  text-decoration: line-through;
+  transition: 0.2s;
+}
+.sticky-footer {
+  position: sticky;
+  top: 100%;
+  color: #fff;
+  background-color: #06283d;
+
+  text-align: center;
+  /* height: 100px; */
+}
+.t-none {
+  text-decoration: none;
+  color: rgb(235, 137, 137);
+}
