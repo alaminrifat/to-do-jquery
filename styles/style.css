@@ -7,6 +7,16 @@
   text-transform: capitalize;
   font-size: 16px;
 }
+.head {
+  background-color: #06283d;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head h5 {
+  color: #bbb;
+}
 body {
   min-height: 100vh;
 }
