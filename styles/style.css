@@ -69,6 +69,7 @@ li .fa-trash {
 .checked {
   text-decoration: line-through;
   transition: 0.2s;
+  color: #bbbbbbc1;
 }
 .sticky-footer {
   position: sticky;
@@ -82,4 +83,14 @@ li .fa-trash {
 .t-none {
   text-decoration: none;
   color: rgb(235, 137, 137);
+}
+@media only screen and (max-width: 676px) {
+  .main-box {
+    min-width: 50vh;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .main-box {
+    min-width: 40vh;
+  }
 }
